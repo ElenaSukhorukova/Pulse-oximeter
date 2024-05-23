@@ -7,7 +7,7 @@ const gulpRename = require('gulp-rename');
 const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 
-const SCSS_PATH = 'src/sass/*.+(scss|sass)'
+const SCSS_PATH = 'src/sass/**/*.+(scss|sass)'
 
 // Static server
 gulp.task('server', function() {
