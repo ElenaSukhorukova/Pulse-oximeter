@@ -8,21 +8,21 @@
     text-align: center;
   }
   &__wrapper {
-    margin: 15px 0 0 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
   }
-  &__icon {
-    width: 269px;
-    height: 91px;
+  &__item {
+    margin: 25px 15px 0 15px;
+    max-width: 269px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    img {
-      width: 70px;
-      height: 70px;
-    }
+  }
+  &__icon {
+    width: 70px;
+    height: 70px;
   }
   &__subheader {
     margin-top: 28px;
