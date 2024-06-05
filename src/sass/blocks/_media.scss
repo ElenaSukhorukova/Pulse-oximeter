@@ -72,10 +72,8 @@
       width: 90%;
     }
   }
-  .advantages {
-    &__header {
-      font-size: 28px;
-    }
+  .title {
+    font-size: 26px;
   }
   .button {
     width: 115px;
@@ -124,9 +122,7 @@
       font-size: 14px;
     }
   }
-  .advantages {
-    &__header {
-      font-size: 26px;
-    }
+  .title {
+    font-size: 26px;
   }
 }
