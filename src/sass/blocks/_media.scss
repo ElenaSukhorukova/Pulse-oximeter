@@ -72,16 +72,17 @@
       width: 90%;
     }
   }
-  .advantages {
-    &__header {
-      font-size: 28px;
-    }
+  .title {
+    font-size: 26px;
   }
   .button {
     width: 115px;
     &_main {
       width: 262px;
       height: 45px;
+    }
+    &_submit {
+      width: 100%;
     }
   }
 }
@@ -95,7 +96,6 @@
       font-size: 15px;
     }
   }
-
   .promo {
     &__wrapper {
       margin-top: 60px;
@@ -123,10 +123,18 @@
       height: 42px;
       font-size: 14px;
     }
+
   }
-  .advantages {
-    &__header {
-      font-size: 26px;
+  .title {
+    font-size: 26px;
+  }
+  .consultation {
+    &__decr {
+      font-size: 17px;
+      line-height: 27px;
     }
+  }
+  .feed-form {
+    width: 289px;
   }
 }
