@@ -81,6 +81,9 @@
       width: 262px;
       height: 45px;
     }
+    &_submit {
+      width: 100%;
+    }
   }
 }
 @media (max-width: 320px) {
@@ -93,7 +96,6 @@
       font-size: 15px;
     }
   }
-
   .promo {
     &__wrapper {
       margin-top: 60px;
@@ -121,8 +123,18 @@
       height: 42px;
       font-size: 14px;
     }
+
   }
   .title {
     font-size: 26px;
+  }
+  .consultation {
+    &__decr {
+      font-size: 17px;
+      line-height: 27px;
+    }
+  }
+  .feed-form {
+    width: 289px;
   }
 }
