@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pulse</title>
-  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
   <link rel="stylesheet" href="css/style.min.css">
   <!-- https://www.figma.com/file/zWtpNVgBT91sEg2li9JKBd/Pulse?node-id=0%3A1 -->
 </head>
 <body>
-  <div class="promo">
+  <section class="promo">
     <div class="container">
       <header class="header">
         <a href='#' class="header__logo">
@@ -52,9 +53,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="advantages">
+  <section class="advantages">
     <div class="container">
       <h3 class="title">OUR ADVANTAGES</h3>
       <div class="advantages__wrapper">
@@ -81,9 +82,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="consultation">
+  <section class="consultation">
     <div class="container">
       <h2 class="title title_left">
         Get a free consultation<br>
@@ -100,7 +101,27 @@
         <button class="button button_submit">order a consultation</button>
       </form>
     </div>
-  </div>
-  <script src="js/script.js"></script>
+  </section>
+
+  <section class="carousel">
+    <div class="container">
+      <div class="carousel__inner">
+        <div>
+          <img src="img/clide_1.png" alt="clide 1">
+        </div>
+        <div>
+          <img src="img/clide_2.png" alt="clide 2">
+        </div>
+        <div>
+          <img src="img/clide_3.png" alt="clide 3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
