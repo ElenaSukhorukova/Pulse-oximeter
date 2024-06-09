@@ -1,2 +1,2 @@
 # Pulse-oximeter
-practis css
+practice css
